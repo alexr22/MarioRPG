@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery.js"></script>
+	<title>Mario RPG Game</title>
+</head>
+<body>
+<h1 style="text-align: center; border:30px">Mario RPG Game</h1>
+<h2 id="pickCharacter" style="text-align: center; border:40px">Choose your character!</h2>
+<div class="row characters">
+<div class="container">
+	<div class="col-md-2"></div>
+
+	<div class="col-md-2 mario"><img src="http://vignette1.wikia.nocookie.net/mario/images/6/64/NSMBW_Artwork_Mario.jpg/revision/latest?cb=20091004185652&path-prefix=de" style="width: 150px; height: 200px"><button class="btn btn-default btn-lg marioButton">Pick Mario</button></div>
+
+	<div class="col-md-2 luigi"><img src="http://vignette3.wikia.nocookie.net/ssb/images/6/60/Luigi_(NSMBU).png/revision/latest?cb=20130617011001" style="width: 150px; height: 200px"><button class="btn btn-default btn-lg luigiButton">Pick Luigi</button></div>
+
+	<div class="col-md-2 yoshi"><img src="http://vignette3.wikia.nocookie.net/fantendo/images/8/83/Yoshi_Happy_YBA.png/revision/latest?cb=20120526033458" style="width: 150px; height: 200px"><button class="btn btn-default btn-lg yoshiButton">Pick Yoshi!</button></div>
+
+	<div class="col-md-2 toad"><img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png" style="width: 150px; height: 200px"><button class="btn btn-default btn-lg toadButton">Pick Toad</button></div>
+
+	<div class="col-md-2"></div>
+</div>
+</div>
+<div class="row">
+	<div class="container">
+
+
+		<div class="col-md-4 userCharacter"></div>
+
+		<div class="col-md-2 opponentCharacter1"></div>
+		<div class="col-md-2 opponentCharacter2"></div>
+		<div class="col-md-2 opponentCharacter3"></div>
+		<div class="col-md-2"></div>
+
+	</div>
+</div>
+<div class ="row">		
+	<div class="col-md-2"></div>
+	<div class="col-md-2"><button class="btn btn-default btn-lg attackButton">Attack!</button></div>
+</div>
+<div class ="row">		
+	<div class="col-md-2"></div>
+	<div class="col-md-2 userCharHP"></div>
+	<div class="col-md-2 oppCharHP"></div>
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
